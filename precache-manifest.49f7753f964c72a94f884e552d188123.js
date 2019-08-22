@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67c8784c9d1083ecf24e1896d292ee89",
+    "revision": "38ae15d7faefca8b93552592689aef44",
     "url": "/MarinesLemus007.github.io/index.html"
   },
   {
-    "revision": "e619c33fad55294e2efb",
-    "url": "/MarinesLemus007.github.io/static/css/main.0e5dc733.chunk.css"
+    "revision": "bf55df4977cbf3eca0d8",
+    "url": "/MarinesLemus007.github.io/static/css/main.885da5a6.chunk.css"
   },
   {
     "revision": "c68c2e5f0c293f852dd9",
     "url": "/MarinesLemus007.github.io/static/js/2.0b1541fa.chunk.js"
   },
   {
-    "revision": "e619c33fad55294e2efb",
-    "url": "/MarinesLemus007.github.io/static/js/main.c3c2c493.chunk.js"
+    "revision": "bf55df4977cbf3eca0d8",
+    "url": "/MarinesLemus007.github.io/static/js/main.fa6ef04b.chunk.js"
   },
   {
     "revision": "dab35c430524524c2521",
