@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/MarinesLemus007.github.io/static/css/main.885da5a6.chunk.css",
-    "main.js": "/MarinesLemus007.github.io/static/js/main.fa6ef04b.chunk.js",
-    "main.js.map": "/MarinesLemus007.github.io/static/js/main.fa6ef04b.chunk.js.map",
-    "runtime~main.js": "/MarinesLemus007.github.io/static/js/runtime~main.9e6f19d7.js",
-    "runtime~main.js.map": "/MarinesLemus007.github.io/static/js/runtime~main.9e6f19d7.js.map",
-    "static/js/2.0b1541fa.chunk.js": "/MarinesLemus007.github.io/static/js/2.0b1541fa.chunk.js",
-    "static/js/2.0b1541fa.chunk.js.map": "/MarinesLemus007.github.io/static/js/2.0b1541fa.chunk.js.map",
-    "index.html": "/MarinesLemus007.github.io/index.html",
-    "precache-manifest.49f7753f964c72a94f884e552d188123.js": "/MarinesLemus007.github.io/precache-manifest.49f7753f964c72a94f884e552d188123.js",
-    "service-worker.js": "/MarinesLemus007.github.io/service-worker.js",
-    "static/css/main.885da5a6.chunk.css.map": "/MarinesLemus007.github.io/static/css/main.885da5a6.chunk.css.map",
-    "static/media/burger.png": "/MarinesLemus007.github.io/static/media/burger.da5bd174.png",
-    "static/media/developer.jpg": "/MarinesLemus007.github.io/static/media/developer.adf7e77b.jpg",
-    "static/media/logo.png": "/MarinesLemus007.github.io/static/media/logo.4c060221.png"
+    "main.css": "/static/css/main.61945182.chunk.css",
+    "main.js": "/static/js/main.b4f6fe9f.chunk.js",
+    "main.js.map": "/static/js/main.b4f6fe9f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.077bb605.js",
+    "runtime~main.js.map": "/static/js/runtime~main.077bb605.js.map",
+    "static/js/2.312a2805.chunk.js": "/static/js/2.312a2805.chunk.js",
+    "static/js/2.312a2805.chunk.js.map": "/static/js/2.312a2805.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ec454621b5502170e84b32551dd35351.js": "/precache-manifest.ec454621b5502170e84b32551dd35351.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61945182.chunk.css.map": "/static/css/main.61945182.chunk.css.map",
+    "static/media/burger.png": "/static/media/burger.da5bd174.png",
+    "static/media/developer.jpg": "/static/media/developer.adf7e77b.jpg",
+    "static/media/logo.png": "/static/media/logo.4c060221.png",
+    "static/media/yo.jpg": "/static/media/yo.ad005503.jpg"
   }
 }
