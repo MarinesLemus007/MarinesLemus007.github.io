@@ -17,9 +17,9 @@ class Start extends React.Component{
                             </h1>
                         </div>
                         <div className="start-wordtwo">    
-                            <h3>
+                            <h2>
                                 Front-end developer 
-                            </h3>
+                            </h2>
                         </div>
                     </div>
                 </div>

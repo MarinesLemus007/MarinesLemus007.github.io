@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './component/Nav';
 import Start from './component/inicio';
 import Proyect from './component/proyect';
-
+import Aboutme from './component/Aboutme';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
     <Nav/>
     <Start/>
     <Proyect/>
+    <Aboutme />
     </>
   );
 }

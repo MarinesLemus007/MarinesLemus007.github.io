@@ -24,7 +24,7 @@ body{
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -86,11 +86,168 @@ h1{
   color: #242121;
 }
 
-h3{
+h2{
   font-family:inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 45px;
   line-height: 53px;
   color: #242121;
+}
+
+h3{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+  color: #242121;
+}
+
+.proyect-seccion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1545px;
+}
+
+.proyect-letter{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 100px;
+  width: 100%;
+  height: 163px;
+  justify-content: center;
+}
+
+.proyect-word{
+  display: flex;
+  flex-direction: row;
+}
+
+.proyect-proyect{
+  display: flex;
+  flex-direction: column;
+  background: rgba(103, 164, 192, 0.56);
+  width: -webkit-fill-available;
+}
+
+.proyect-container, .proyect-containertwo, .proyect-containerthree{
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  background: #FFFFFF;
+  margin: 0px 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.proyect-mdlink, .proyect-pokemon, .proyect-burger{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+}
+
+.proyect-word-mdlink{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  padding: 0px 25px;
+}
+
+.proyect-wordone, .proyect-wordtwo, .proyect-wordthree, .proyect-wordfour{
+  display: flex;
+  flex-direction: row;
+}
+
+.proyect-wordtwo, .proyect-wordthree{
+  margin-top: 30px;
+}
+
+.proyect-wordfour{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  color: #DC6C05;
+}
+
+.proyect-npm{
+  margin-left: 25px;
+}
+
+.proyect-container{
+  margin-top: 163px;
+}
+
+.proyect-containertwo{
+  margin-top: 100px;
+}
+
+.proyect-containerthree{
+  margin-top: 100px;
+}
+
+.aboutme-seccion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1115px;
+}
+
+.aboutme-letter{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 100px;
+  width: 100%;
+  justify-content: center;
+  height: 194px;
+}
+
+.aboutme-word{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme-aboutme{
+  display: flex;
+  flex-direction: row;
+  margin-top: 194px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 300px;
+}
+
+.aboutme-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme-img{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme-wordone{
+  display: flex;
+  flex-direction: column;
+  margin-left: 67px;
+}
+
+.aboutme-me{
+  width: 300px;
+  height: 299.49px;
+  border-radius: 149.746px;
+}
+
+.aboutme-seccion-two{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 100px;
+  align-self: center;
 }
