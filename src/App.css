@@ -1,33 +1,96 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-nav{
+  display: flex;
+  flex-direction: row;
+  background: rgba(103, 164, 192, 0.56);
+  position: absolute;
+  width: -webkit-fill-available;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+  padding: 0px 100px
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-img, .nav-inicio, .nav-proyectos, .nav-sobremi, .nav-contacto, .nav-vercv{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-logo{
+  width: 60px;
+  height: 60.17px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 84px;
+  width: -webkit-fill-available;
+  height: 400px;
+}
+
+.start-img{
+  display: flex;
+  flex-direction: row;
+}
+
+.start-compu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.start-letter{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 100px;
+  align-self: center;
+}
+
+.start-word{
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid;
+}
+
+.start-wordtwo{
+  display: flex;
+  flex-direction: row;
+}
+
+h1{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #242121;
+}
+
+h3{
+  font-family:inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 53px;
+  color: #242121;
 }
