@@ -28,21 +28,6 @@ class Aboutme extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div className="aboutme-seccion-two">
-                    
-                    <div className="aboutme-letter-two">
-                        <div className="aboutme-word-Two">
-                            <h3>Habilidades</h3>
-                        </div>
-                    </div>
-
-                    <div className="aboutme-icos">
-                        <div className="aboutme-icos-content">
-                            <img src={me} className="aboutme-me" alt=""/>
-                        </div>
-                    </div>
-
-                </div>
             </section>
             </>
         )
