@@ -1,5 +1,5 @@
 import React from 'react';
-import compu from '../img/developer.jpg';
+import compu from '../img/developer2.jpg';
 
 class Start extends React.Component{
     render(){

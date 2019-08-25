@@ -15,17 +15,16 @@ class Footer extends React.Component{
 
                         <div className="footer-contact">
                            
-                            
-                                <div className="footer-ico">
-                                    <i class="fab fa-linkedin"></i>
-                                </div>
-                    
                                 <div className="footer-icotwo">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
+                                </div>
+
+                                <div className="footer-ico">
+                                    <i className="fab fa-linkedin"></i>
                                 </div>
                     
                                 <div className="footer-icothree">
-                                    <i class="fas fa-envelope"></i>
+                                    <i className="fas fa-envelope"></i>
                                 </div>
 
                             

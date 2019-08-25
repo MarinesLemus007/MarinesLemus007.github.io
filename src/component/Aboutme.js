@@ -19,12 +19,12 @@ class Aboutme extends React.Component{
                         </div>
                     
                         <div className="aboutme-wordone">
-                            <p>
-                                Llegué a Santiago de Chile, hace un poco más de tres años, con ganas de reinventarme
-                                y vi en la programación una opción novedosa e interesante que forma parte de los
-                                nuevos empleos del futuro. Soy egresada de Laboratoria, donde aprendí a programar en
-                                javascript y a trabajar colaborativamente mimetizando un ambiente laboral.
-                            </p>
+                            <h4>
+                                Front end Developer egresada de Laboratoria. Con facilidad para el auto aprendizaje.
+                                Responsable, ordenada y positiva. Me desenvuelvo bien tanto de manera colaborativa
+                                como individualmente. Me interesa aplicar otros lenguajes de programación y continuar
+                                mi formación como profesional en el area del desarrollo web. 
+                            </h4>
                         </div>
                     </div>
                 </div>

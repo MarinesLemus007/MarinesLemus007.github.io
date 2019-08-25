@@ -33,9 +33,11 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordthree">
-                                <p>
-                                    JS, NODE y NPM
-                                </p>
+                                <strong>   
+                                    <p>
+                                        JS, NODE y NPM
+                                    </p>
+                                </strong> 
                             </div>
 
                             <div  className="proyect-wordfour">
@@ -69,9 +71,11 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordthree">
-                                <p>
-                                    JS, HTML5 y CSS3
-                                </p>
+                                <strong>
+                                    <p>
+                                        JS, HTML5 y CSS3
+                                    </p>
+                                </strong>
                             </div>
 
                             <div  className="proyect-wordfour">
@@ -104,9 +108,11 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordthree">
-                                <p>
-                                    REACT, HTML5 y CSS3
-                                </p>
+                                <strong>
+                                    <p>
+                                        REACT, HTML5 y CSS3
+                                    </p>
+                                </strong>
                             </div>
 
                             <div  className="proyect-wordfour">

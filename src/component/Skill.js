@@ -14,54 +14,52 @@ class Skill extends React.Component{
 
                 <div className="skill-skill">
                     <div className="skill-container">
+
                         <div className="skill-ico">
                             <i className="fab fa-js-square"></i>
-                            <p>JAVASCRIPT</p>
+                            <p className="blue-word">JAVASCRIPT</p>
                         </div>
                     
-
+                        <div className="skill-icoseven">
+                            <i className="fab fa-react"></i>
+                            <p className="blue-word">REACT</p>
+                        </div>
                    
                         <div className="skill-icotwo">
-                            <i class="fab fa-html5"></i>
-                            <p>HTML 5</p>
+                            <i className="fab fa-html5"></i>
+                            <p className="blue-word">HTML 5</p>
                         </div>
                     
-
-                    
-                        <div className="skill-icothree">
-                            <i class="fab fa-css3-alt"></i>
-                            <p>CSS 3</p>
-                        </div>
-
                         <div className="skill-icofour">
-                            <i class="fab fa-git-alt"></i>
-                            <p>GIT</p>
+                            <i className="fab fa-git-alt"></i>
+                            <p className="blue-word">GIT</p>
                         </div>
-                        
-                        <div className="skill-icofive">
-                            <i class="fab fa-bootstrap"></i> 
-                            <p>BOOTSTRAP</p>
-                        </div>
-                        
+
                         <div className="skill-icosix">
-                            <i class="fab fa-node-js"></i>
-                            <p>NODE</p>
-                        </div>
-
-                        <div className="skill-icoseven">
-                            <i class="fab fa-figma"></i>
-                            <p>FIGMA</p>
-                        </div>
-
-                        <div className="skill-icoseven">
-                            <i class="fab fa-react"></i>
-                            <p>REACT</p>
+                            <i className="fab fa-node-js"></i>
+                            <p className="blue-word">NODE</p>
                         </div>
 
                         <div className="skill-icoseven">
                             <img src={firebase} className="fb-logo" alt="logo"/>
-                            <p>FIREBASE</p>
+                            <p className="blue-word">FIREBASE</p>
                         </div>
+
+                        <div className="skill-icothree">
+                            <i className="fab fa-css3-alt"></i>
+                            <p className="blue-word">CSS 3</p>
+                        </div>
+                        
+                        <div className="skill-icofive">
+                            <i className="fab fa-bootstrap"></i> 
+                            <p className="blue-word">BOOTSTRAP</p>
+                        </div>
+
+                        <div className="skill-icoseven">
+                            <i className="fab fa-figma"></i>
+                            <p className="blue-word">FIGMA</p>
+                        </div>
+
                     </div>
                 </div>
             </section>

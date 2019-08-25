@@ -11,13 +11,15 @@ body{
 .nav-nav{
   display: flex;
   flex-direction: row;
-  background: rgba(103, 164, 192, 0.56);
-  position: absolute;
+  background: #A9CCE3;
   width: -webkit-fill-available;
   height: 84px;
   left: 0px;
-  top: 0px;
-  padding: 0px 100px
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  box-shadow: -4px 8px 10px -7px rgba(0,0,0,0.75);
 }
 
 .nav-container{
@@ -31,11 +33,13 @@ body{
 .nav-img, .nav-inicio, .nav-proyectos, .nav-sobremi, .nav-contacto, .nav-vercv{
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .nav-logo{
   width: 60px;
   height: 60.17px;
+  cursor: pointer;
 }
 
 .start-container{
@@ -127,7 +131,7 @@ h3{
 .proyect-proyect{
   display: flex;
   flex-direction: column;
-  background: rgba(103, 164, 192, 0.56);
+  background: #A9CCE3;
   width: -webkit-fill-available;
 }
 
@@ -164,6 +168,7 @@ h3{
 
 .proyect-wordtwo, .proyect-wordthree{
   margin-top: 30px;
+  text-align: justify;
 }
 
 .proyect-wordfour{
@@ -232,6 +237,7 @@ h3{
   display: flex;
   flex-direction: column;
   margin-left: 67px;
+  align-self: center;
 }
 
 .aboutme-me{
@@ -243,7 +249,7 @@ h3{
 .skill-seccion{
   display: flex;
   flex-direction: row;
-  height: 285px;
+  height: 385px;
 }
 
 .skill-letter{
@@ -252,6 +258,7 @@ h3{
   position: absolute;
   margin-left: 100px;
   justify-content: center;
+  height: 200px;
 }
 
 .skill-word{
@@ -262,7 +269,7 @@ h3{
 .skill-skill{
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 100%;
 }
 
@@ -281,7 +288,7 @@ h3{
 }
 
 .fa-js-square, .fa-html5, .fa-css3-alt, .fa-git-alt, .fa-bootstrap, .fa-node-js, .fa-figma, .fa-react{
-  color:rgba(103, 164, 192, 0.56);
+  color:#A9CCE3;
   font-size: 64px;
   cursor: pointer;
 }
@@ -302,7 +309,7 @@ h3{
 .footer-seccion{
   display: flex;
   flex-direction: row;
-  background: rgba(103, 164, 192, 0.56);
+  background: #A9CCE3;
   justify-content: center;
   height: 300px;
 }
@@ -333,6 +340,18 @@ h4{
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
+  text-align: justify;
+  color: #242121;
+}
+
+.blue-word{
+  color:#A9CCE3;
+}
+
+.p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
   color: #242121;
 }
