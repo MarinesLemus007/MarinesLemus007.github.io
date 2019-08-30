@@ -18,6 +18,9 @@ class Proyect extends React.Component{
                     <div className="proyect-container">
                         <div className="proyect-img">
                             <img src={mdlinks} className="proyect-mdlink" alt=""/>
+                            <div className="middle">
+                                <div className="text">Ir a Deploy</div>
+                            </div>
                         </div>
                         <div className="proyect-word-mdlink">
                             <div className="proyect-wordone">
@@ -41,7 +44,7 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p>
+                                <p className="proyect-repository">
                                     Repositorio
                                 </p>
                                 <p className="proyect-npm">
@@ -54,6 +57,9 @@ class Proyect extends React.Component{
                     <div className="proyect-containertwo">
                         <div className="proyect-img">
                             <img src={pokemon} className="proyect-pokemon" alt=""/>
+                            <div className="middle-two">
+                                <div className="text-two">Ir a Deploy</div>
+                            </div>
                         </div>
 
                         <div className="proyect-word-mdlink">
@@ -79,11 +85,8 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p>
+                                <p className="proyect-repository">
                                     Repositorio
-                                </p>
-                                <p className="proyect-npm">
-                                    Npm
                                 </p>
                             </div>
                         </div>    
@@ -92,6 +95,9 @@ class Proyect extends React.Component{
                     <div className="proyect-containerthree">
                         <div className="proyect-img">
                             <img src={burger} className="proyect-burger" alt=""/>
+                            <div className="middle-three">
+                                <div className="text-three">Ir a Deploy</div>
+                            </div>
                         </div>
 
                         <div className="proyect-word-mdlink">
@@ -116,11 +122,8 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p>
+                                <p className="proyect-repository">
                                     Repositorio
-                                </p>
-                                <p className="proyect-npm">
-                                    Npm
                                 </p>
                             </div>
                         </div>     
