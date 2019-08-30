@@ -20,10 +20,10 @@ class Aboutme extends React.Component{
                     
                         <div className="aboutme-wordone">
                             <h4>
-                                Front end Developer egresada de Laboratoria. Con facilidad para el auto aprendizaje.
-                                Responsable, ordenada y positiva. Me desenvuelvo bien tanto de manera colaborativa
-                                como individualmente. Me interesa aplicar otros lenguajes de programación y continuar
-                                mi formación como profesional en el area del desarrollo web. 
+                                Frontend Developer egresada de Laboratoria. Con facilidad para el auto aprendizaje.
+                                Responsable, ordenada y positiva. Buen desenvolvimiento tanto de manera colaborativa
+                                como individualmente. Motivada a aplicar otros lenguajes de programación y continuar
+                                mi formación como profesional en el área del desarrollo web. 
                             </h4>
                         </div>
                     </div>

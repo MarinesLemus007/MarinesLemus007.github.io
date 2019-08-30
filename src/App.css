@@ -38,8 +38,14 @@ body{
 
 .nav-logo{
   width: 60px;
-  height: 60.17px;
+  height: 60px;
   cursor: pointer;
+  transition: 2s;
+  border-radius: 30px;
+}
+
+.nav-logo:hover{
+  transform: rotateY(360deg);
 }
 
 .start-container{
@@ -74,6 +80,7 @@ body{
   display: flex;
   flex-direction: row;
   border-bottom: solid;
+  color: #242121;
 }
 
 .start-wordtwo{
@@ -291,6 +298,12 @@ h3{
   color:#A9CCE3;
   font-size: 64px;
   cursor: pointer;
+  transition: font-size .2s;
+}
+
+.fa-js-square:hover, .fa-html5:hover, .fa-css3-alt:hover, .fa-git-alt:hover, .fa-bootstrap:hover,
+.fa-node-js:hover, .fa-figma:hover, .fa-react:hover{
+  font-size: 84px;
 }
 
 .skill-ico, .skill-icotwo, .skill-icothree,.skill-icofour, .skill-icofive, .skill-icosix, .skill-icoseven {
@@ -304,6 +317,12 @@ h3{
   opacity: .5;
   width: 64px;
   height: 64px;
+  cursor: pointer;
+  transition: width .2s, height .2s;
+}
+.fb-logo:hover{
+  width: 84px;
+  height: 84px;
 }
 
 .footer-seccion{
@@ -333,6 +352,10 @@ h3{
   color: #242121;
   font-size: 64px;
   cursor: pointer;
+}
+
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
+  color: #EFF1CE;
 }
 
 h4{
