@@ -5,7 +5,7 @@ class Start extends React.Component{
     render(){
         return (
             <>
-            <section>
+            <section id="start">
                 <div className="start-container">
                     <div className="start-img">
                         <img src={compu} className="start-compu" alt=""/>

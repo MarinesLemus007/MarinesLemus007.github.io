@@ -5,7 +5,7 @@ class Aboutme extends React.Component{
     render(){
         return (
             <>
-            <section className="aboutme-seccion">
+            <section className="aboutme-seccion" id="aboutme">
                 <div className="aboutme-letter">
                     <div className="aboutme-word">
                         <h3>Sobre mí</h3>

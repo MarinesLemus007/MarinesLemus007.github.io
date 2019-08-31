@@ -7,7 +7,7 @@ class Proyect extends React.Component{
     render(){
         return (
             <>
-            <section className="proyect-seccion">
+            <section className="proyect-seccion" id="proyect">
                 <div className="proyect-letter">
                     <div className="proyect-word">
                         <h3>Proyectos</h3>
