@@ -54,13 +54,21 @@ class Nav extends React.Component{
                                 to="footer"
                                 spy={true}
                                 smooth={true}
-                                offset={-320}
+                                offset={-350}
                                 duration= {500}
                                 >
                                 Contacto
                             </Link>
                         </div>
-                        <div className="nav-vercv">Ver CV</div>
+                        <div className="nav-vercv">
+                            <a className="nav-vercv-anchor"
+                                href="https://drive.google.com/open?id=1U77ZJviTaTp2kpRFpazAleC9OW553uNg"
+                                target="blank"
+                            >
+                                Ver CV
+                            </a>
+                        </div>
+                        
                     </div>
                 </nav>
             </header>

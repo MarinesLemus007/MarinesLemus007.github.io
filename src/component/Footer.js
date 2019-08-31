@@ -16,15 +16,30 @@ class Footer extends React.Component{
                         <div className="footer-contact">
                            
                                 <div className="footer-icotwo">
-                                    <i className="fab fa-github"></i>
+                                    <a 
+                                        href="https://github.com/MarinesLemus007?tab=repositories"
+                                        target="blank"
+                                    >
+                                        <i className="fab fa-github"></i>
+                                    </a>
                                 </div>
 
                                 <div className="footer-ico">
-                                    <i className="fab fa-linkedin"></i>
+                                    <a 
+                                        href="https://www.linkedin.com/in/marines-lemus/"
+                                        target="blank"
+                                    >
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
                                 </div>
                     
                                 <div className="footer-icothree">
-                                    <i className="fas fa-envelope"></i>
+                                    <a
+                                        href="mailto:marineslemus@gmail.com"
+                                        target="blank"
+                                    >
+                                        <i className="fas fa-envelope"></i>
+                                    </a>
                                 </div>
 
                             

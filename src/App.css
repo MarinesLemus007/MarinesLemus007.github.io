@@ -36,6 +36,15 @@ body{
   cursor: pointer;
 }
 
+.nav-vercv-anchor{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-vercv-anchor:hover{
+  color: #EFF1CE;
+}
+
 .nav-img:hover, .nav-inicio:hover, .nav-proyectos:hover,
 .nav-sobremi:hover, .nav-contacto:hover, .nav-vercv:hover{
   color: #EFF1CE;
@@ -231,9 +240,13 @@ h3{
 
 .text, .text-two, .text-three{
   background-color: #4CAF50;
+  padding: 16px 32px;
+}
+
+.text-deploy{
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  text-decoration: none;
 }
 
 .proyect-img:hover .text, .proyect-img:hover .text-two, .proyect-img:hover .text-three{
@@ -248,8 +261,12 @@ h3{
 .proyect-wordfour{
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 50px; 
+}
+
+.proyect-repository, .proyect-npm{
   color: #DC6C05;
+  text-decoration: none;
 }
 
 .proyect-npm{

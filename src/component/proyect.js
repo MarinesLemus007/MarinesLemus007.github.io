@@ -19,7 +19,14 @@ class Proyect extends React.Component{
                         <div className="proyect-img">
                             <img src={mdlinks} className="proyect-mdlink" alt=""/>
                             <div className="middle">
-                                <div className="text">Ir a Deploy</div>
+                                <div className="text">
+                                    <a className="text-deploy"
+                                        href="https://www.npmjs.com/package/mlemus-md-links"
+                                        target="blank"
+                                    >
+                                        Ir a Npm
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="proyect-word-mdlink">
@@ -44,12 +51,12 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p className="proyect-repository">
-                                    Repositorio
-                                </p>
-                                <p className="proyect-npm">
-                                    Npm
-                                </p>
+                                <a className="proyect-repository"
+                                    href="https://github.com/MarinesLemus007/SCL009-md-links"
+                                    target="blank"
+                                >
+                                    Repositorio   
+                                </a>
                             </div>
                         </div>   
                     </div>
@@ -58,7 +65,14 @@ class Proyect extends React.Component{
                         <div className="proyect-img">
                             <img src={pokemon} className="proyect-pokemon" alt=""/>
                             <div className="middle-two">
-                                <div className="text-two">Ir a Deploy</div>
+                                <div className="text-two">
+                                    <a className="text-deploy"
+                                        href="https://marineslemus007.github.io/SCL009-data-lovers/src/index.html"
+                                        target="blank"
+                                    >
+                                        Ir a Deploy
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -85,9 +99,12 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p className="proyect-repository">
-                                    Repositorio
-                                </p>
+                                <a className="proyect-repository"
+                                    href="https://github.com/MarinesLemus007/SCL009-data-lovers"
+                                    target="blank"
+                                >
+                                    Repositorio    
+                                </a>
                             </div>
                         </div>    
                     </div>
@@ -96,7 +113,14 @@ class Proyect extends React.Component{
                         <div className="proyect-img">
                             <img src={burger} className="proyect-burger" alt=""/>
                             <div className="middle-three">
-                                <div className="text-three">Ir a Deploy</div>
+                                <div className="text-three">
+                                    <a className="text-deploy"
+                                        href="https://cloiw.github.io/SCL009-Burger-Queen/"
+                                        target="blank"
+                                    >
+                                        Ir a Deploy
+                                    </a>                              
+                                </div>
                             </div>
                         </div>
 
@@ -122,9 +146,12 @@ class Proyect extends React.Component{
                             </div>
 
                             <div  className="proyect-wordfour">
-                                <p className="proyect-repository">
+                                <a className="proyect-repository"
+                                    href="https://github.com/MarinesLemus007/SCL009-Burger-Queen"
+                                    target="blank"
+                                >
                                     Repositorio
-                                </p>
+                                </a>
                             </div>
                         </div>     
                     </div>
