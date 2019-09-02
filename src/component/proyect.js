@@ -16,6 +16,7 @@ class Proyect extends React.Component{
 
                 <div className="proyect-proyect">
                     <div className="proyect-container">
+                        
                         <div className="proyect-img">
                             <img src={mdlinks} className="proyect-mdlink" alt=""/>
                             <div className="middle">
@@ -29,6 +30,7 @@ class Proyect extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="proyect-word-mdlink">
                             <div className="proyect-wordone">
                                 <strong><h4>MD LINKS</h4></strong>
@@ -153,8 +155,9 @@ class Proyect extends React.Component{
                                     Repositorio
                                 </a>
                             </div>
-                        </div>     
+                        </div>
                     </div>
+
                 </div>
             </section>
             </>

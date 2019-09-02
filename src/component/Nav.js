@@ -21,9 +21,11 @@ class Nav extends React.Component{
                                 offset={-100}
                                 duration= {500}
                                 >
-                            Inicio
+                                <i className="fas fa-home"></i>
+                                <p className="nav-anchor">Inicio</p>
                             </Link>
                         </div>
+
                         <div className="nav-proyectos">
                             <Link
                                 activeClass="active"
@@ -33,9 +35,11 @@ class Nav extends React.Component{
                                 offset={-70}
                                 duration= {500}
                             >
-                            Proyectos
+                                <i className="fas fa-folder-open"></i>
+                                <p className="nav-anchor">Proyectos</p>
                             </Link>
                         </div>
+
                         <div className="nav-sobremi">
                             <Link
                                 activeClass="active"
@@ -45,7 +49,8 @@ class Nav extends React.Component{
                                 offset={-70}
                                 duration= {500}
                             >
-                            Sobre mí
+                                <i className="fas fa-user"></i>
+                                <p className="nav-anchor">Sobre mí</p>
                             </Link>
                         </div>
                         <div className="nav-contacto">
@@ -54,10 +59,11 @@ class Nav extends React.Component{
                                 to="footer"
                                 spy={true}
                                 smooth={true}
-                                offset={-350}
+                                offset={-330}
                                 duration= {500}
                                 >
-                                Contacto
+                                    <i className="fas fa-phone"></i>
+                                    <p className="nav-anchor">Contacto</p>
                             </Link>
                         </div>
                         <div className="nav-vercv">
@@ -65,7 +71,8 @@ class Nav extends React.Component{
                                 href="https://drive.google.com/open?id=1U77ZJviTaTp2kpRFpazAleC9OW553uNg"
                                 target="blank"
                             >
-                                Ver CV
+                                <i className="fas fa-file"></i>
+                                <p className="nav-anchor">Ver CV</p>
                             </a>
                         </div>
                         

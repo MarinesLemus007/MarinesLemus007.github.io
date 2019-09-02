@@ -78,6 +78,14 @@ body{
   border-bottom: 1px solid #242121;
 }
 
+.nav-vercv-anchor > .fa-file{
+  display: none;
+}
+
+a> .fa-phone, a> .fa-user, a> .fa-folder-open, a> .fa-home{
+  display: none;
+}
+
 .start-container{
   display: flex;
   flex-direction: row;
@@ -148,7 +156,7 @@ h3{
 .proyect-seccion{
   display: flex;
   flex-direction: row;
-  height: 1545px;
+  /* height: 1545px; */
 }
 
 .proyect-letter{
@@ -175,12 +183,18 @@ h3{
 .proyect-container, .proyect-containertwo, .proyect-containerthree{
   display: flex;
   flex-direction: row;
-  height: 350px;
+  /* height: 350px; */
   background: #FFFFFF;
   margin: 0px 100px;
+  /* margin: 0px 100px 100px 100px; */
   justify-content: space-between;
   align-items: center;
-  padding: 0px 25px;
+  /* padding: 0px 25px; */
+  padding: 25px 25px;
+}
+
+.proyect-containerthree{
+  margin: 100px;
 }
 
 .proyect-mdlink, .proyect-pokemon, .proyect-burger{
@@ -227,6 +241,8 @@ h3{
 }
 
 .proyect-img{
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
@@ -288,7 +304,7 @@ h3{
 .aboutme-seccion{
   display: flex;
   flex-direction: row;
-  height: 494px;
+  /* height: 494px; */
 }
 
 .aboutme-letter{
@@ -311,7 +327,7 @@ h3{
   margin-top: 194px;
   margin-right: 100px;
   margin-left: 100px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .aboutme-container{
@@ -340,7 +356,7 @@ h3{
 .skill-seccion{
   display: flex;
   flex-direction: row;
-  height: 385px;
+  /* height: 385px; */
 }
 
 .skill-letter{
@@ -360,7 +376,8 @@ h3{
 .skill-skill{
   display: flex;
   flex-direction: row;
-  margin-top: 200px;
+  /* margin-top: 200px; */
+  margin: 200px 0px 50px 0px;
   width: 100%;
 }
 
@@ -371,6 +388,7 @@ h3{
   margin-left: 100px;
   margin-right: 100px;
   justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .skill-ico, .skill-icotwo, .skill-icothree,.skill-icofour, .skill-icofive,.skill-icosix, .skill-icoseven{
@@ -432,6 +450,11 @@ h3{
   justify-content: space-around;
 }
 
+.footer-ico, .footer-icotwo, .footer-icothree{
+  display: flex;
+  flex-direction: column;
+}
+
 .fa-linkedin, .fa-github, .fa-envelope{
   color: #242121;
   font-size: 64px;
@@ -461,4 +484,108 @@ h4{
   font-size: 16px;
   line-height: 19px;
   color: #242121;
+}
+
+@media (max-width: 768px) {
+  
+  .aboutme-container {
+    display: table;
+  }
+
+  .aboutme-img, .aboutme-wordone{
+    padding: 10px;
+    align-items: center;
+  }
+
+  .aboutme-wordone{
+    margin-left: 0px;
+  }
+
+  .proyect-containertwo, .proyect-containerthree {
+    flex-wrap: wrap;
+    margin: 0px 10px 10px 10px;
+    justify-content: center;
+  }
+
+  .proyect-container{
+    flex-wrap: wrap;
+    margin: 163px 10px 10px 10px;
+    justify-content: center;
+  }
+  h1{
+    font-size: 47px;
+  }
+
+  h2{
+    font-size: 36px;
+  }
+
+  .start-letter {
+  margin-left: 0;
+  }
+
+  .start-container {
+    justify-content: center;
+  }
+
+  .proyect-word-mdlink{
+    padding: 10px 25px 5px 25px;
+  }
+
+  .proyect-seccion, .aboutme-seccion, .skill-seccion{
+    justify-content: center;
+  }
+
+  .proyect-letter, .aboutme-letter, .skill-letter{
+    margin-left: 0;
+  }
+
+  .aboutme-aboutme{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .skill-container, .footer-container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-seccion{
+    height: 160px;
+  }
+
+  .footer-container{
+    padding: 10px 0px;
+  }
+
+  .footer-wordtwo{
+    text-align-last: center;
+  }
+
+  .skill-container{
+    height: 350px;
+  }
+  .nav-nav{
+    padding: 0px 10px;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  .nav-anchor{
+    display: none;
+  }
+
+  a> .fa-phone, a> .fa-user, a> .fa-folder-open, a> .fa-home{
+    display: block;
+    color: #242121;
+    font-size: x-large;
+  }
+
+  .nav-vercv-anchor > .fa-file{
+    display: block;
+    color: #242121;
+    font-size: x-large;
+  }
 }
