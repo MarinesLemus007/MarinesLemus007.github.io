@@ -600,3 +600,27 @@ h4{
     font-size: x-large;
   }
 }
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 37px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .proyect-word-mdlink {
+    height: auto;
+  }
+  .skill-ico, .skill-icotwo, .skill-icothree,
+  .skill-icofour, .skill-icofive, .skill-icosix,
+  .skill-icoseven {
+    height: 75px;
+    width: 85px;
+  }
+  .fa-linkedin, .fa-github, .fa-envelope {
+    font-size: 44px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+}
