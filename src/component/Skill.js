@@ -19,20 +19,30 @@ class Skill extends React.Component{
                             <i className="fab fa-js-square"></i>
                             <p className="blue-word">JAVASCRIPT</p>
                         </div>
+
+                        <div className="skill-icotwo">
+                            <i className="fab fa-html5"></i>
+                            <p className="blue-word">HTML 5</p>
+                        </div>
+
+                        <div className="skill-icothree">
+                            <i className="fab fa-css3-alt"></i>
+                            <p className="blue-word">CSS 3</p>
+                        </div>
                     
                         <div className="skill-icoseven">
                             <i className="fab fa-react"></i>
                             <p className="blue-word">REACT</p>
                         </div>
-                   
-                        <div className="skill-icotwo">
-                            <i className="fab fa-html5"></i>
-                            <p className="blue-word">HTML 5</p>
+
+                        <div className="skill-icoseven">
+                            <i className="fab fa-vuejs"></i>
+                            <p className="blue-word">VUE</p>
                         </div>
-                    
-                        <div className="skill-icofour">
-                            <i className="fab fa-git-alt"></i>
-                            <p className="blue-word">GIT</p>
+
+                        <div className="skill-icofive">
+                            <i className="fab fa-bootstrap"></i> 
+                            <p className="blue-word">BOOTSTRAP</p>
                         </div>
 
                         <div className="skill-icosix">
@@ -44,15 +54,10 @@ class Skill extends React.Component{
                             <img src={firebase} className="fb-logo" alt="logo"/>
                             <p className="blue-word">FIREBASE</p>
                         </div>
-
-                        <div className="skill-icothree">
-                            <i className="fab fa-css3-alt"></i>
-                            <p className="blue-word">CSS 3</p>
-                        </div>
-                        
-                        <div className="skill-icofive">
-                            <i className="fab fa-bootstrap"></i> 
-                            <p className="blue-word">BOOTSTRAP</p>
+                    
+                        <div className="skill-icofour">
+                            <i className="fab fa-git-alt"></i>
+                            <p className="blue-word">GIT</p>
                         </div>
 
                         <div className="skill-icoseven">

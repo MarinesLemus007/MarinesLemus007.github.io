@@ -7,8 +7,8 @@ class Start extends React.Component{
             <>
             <section className="start-section" id="start">
                 <div className="start-container">
-                    <div className="start-img">
-                        <img src={compu} className="start-compu" alt=""/>
+                    <div className="start-img start-compu">
+                        {/* <img src={compu} className="start-compu" alt=""/> */}
                     </div>
                     <div className="start-letter">
                         <div className="start-word">

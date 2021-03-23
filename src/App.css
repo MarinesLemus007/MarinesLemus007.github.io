@@ -97,6 +97,11 @@ a> .fa-phone, a> .fa-user, a> .fa-folder-open, a> .fa-home{
 .start-img{
   display: flex;
   flex-direction: row;
+  background-image: url(/static/media/developer2.3152f4b2.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .start-compu{
@@ -180,7 +185,7 @@ h3{
   width: -webkit-fill-available;
 }
 
-.proyect-container, .proyect-containertwo, .proyect-containerthree{
+.proyect-container, .proyect-containertwo, .proyect-containerthree, .proyect-containerfour{
   display: flex;
   flex-direction: row;
   /* height: 350px; */
@@ -193,7 +198,7 @@ h3{
   padding: 25px 25px;
 }
 
-.proyect-containerthree{
+.proyect-containerfour{
   margin: 100px;
 }
 
@@ -301,6 +306,10 @@ h3{
   margin-top: 100px;
 }
 
+.proyect-containerfour{
+  margin-top: 100px;
+}
+
 .aboutme-seccion{
   display: flex;
   flex-direction: row;
@@ -387,7 +396,8 @@ h3{
   width: 100%;
   margin-left: 100px;
   margin-right: 100px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   flex-flow: wrap;
 }
 
@@ -396,7 +406,7 @@ h3{
   flex-direction: column;
 }
 
-.fa-js-square, .fa-html5, .fa-css3-alt, .fa-git-alt, .fa-bootstrap, .fa-node-js, .fa-figma, .fa-react{
+.fa-js-square, .fa-html5, .fa-css3-alt, .fa-git-alt, .fa-bootstrap, .fa-node-js, .fa-figma, .fa-react, .fa-vuejs{
   color:#A9CCE3;
   font-size: 64px;
   cursor: pointer;
@@ -404,7 +414,7 @@ h3{
 }
 
 .fa-js-square:hover, .fa-html5:hover, .fa-css3-alt:hover, .fa-git-alt:hover, .fa-bootstrap:hover,
-.fa-node-js:hover, .fa-figma:hover, .fa-react:hover{
+.fa-node-js:hover, .fa-figma:hover, .fa-react:hover, .fa-vuejs:hover{
   font-size: 84px;
 }
 
@@ -414,6 +424,7 @@ h3{
   align-items: center;
   height: 85px;
   width: 95px;
+  margin-top: 15px;
 }
 
 .fb-logo{
@@ -501,7 +512,7 @@ h4{
     margin-left: 0px;
   }
 
-  .proyect-containertwo, .proyect-containerthree {
+  .proyect-containertwo, .proyect-containerthree, .proyect-containerfour {
     flex-wrap: wrap;
     margin: 0px 10px 10px 10px;
     justify-content: center;

@@ -2,6 +2,7 @@ import React from 'react';
 import mdlinks from '../img/mdlinks.png';
 import pokemon from '../img/pokemon.png';
 import burger from '../img/burger.png';
+import rickandmorty from '../img/rickandmorty.png';
 
 class Proyect extends React.Component{
     render(){
@@ -16,6 +17,54 @@ class Proyect extends React.Component{
 
                 <div className="proyect-proyect">
                     <div className="proyect-container">
+                        
+                        <div className="proyect-img">
+                            <img src={rickandmorty} className="proyect-mdlink" alt=""/>
+                            <div className="middle">
+                                <div className="text">
+                                    <a className="text-deploy"
+                                        href="https://vue-rickandmorty-7cc6d.web.app"
+                                        target="blank"
+                                    >
+                                        Ir a Deploy
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="proyect-word-mdlink">
+                            <div className="proyect-wordone">
+                                <strong><h4>Rick and Morty</h4></strong>
+                            </div>
+
+                            <div className="proyect-wordtwo">
+                                <p>
+                                    Rick and Morty es una pequeña SPA creada con Vue.
+                                    Posee cuatro vistas: home, characters, locations y episodes.
+                                    Para su construcción se utilizó la api de Rick and Morty.
+                                </p>
+                            </div>
+
+                            <div  className="proyect-wordthree">
+                                <strong>   
+                                    <p>
+                                        VUE, JAVASCRIPT, FIREBASE, VUETIFY, ROUTER VUE, VUEX, AXiOS VUE
+                                    </p>
+                                </strong> 
+                            </div>
+
+                            <div  className="proyect-wordfour">
+                                <a className="proyect-repository"
+                                    href="https://github.com/MarinesLemus007/vue-rickandmortyapi"
+                                    target="blank"
+                                >
+                                    Repositorio   
+                                </a>
+                            </div>
+                        </div>   
+                    </div>
+
+                    <div className="proyect-containertwo">
                         
                         <div className="proyect-img">
                             <img src={mdlinks} className="proyect-mdlink" alt=""/>
@@ -63,7 +112,7 @@ class Proyect extends React.Component{
                         </div>   
                     </div>
 
-                    <div className="proyect-containertwo">
+                    <div className="proyect-containerthree">
                         <div className="proyect-img">
                             <img src={pokemon} className="proyect-pokemon" alt=""/>
                             <div className="middle-two">
@@ -111,7 +160,7 @@ class Proyect extends React.Component{
                         </div>    
                     </div>
 
-                    <div className="proyect-containerthree">
+                    <div className="proyect-containerfour">
                         <div className="proyect-img">
                             <img src={burger} className="proyect-burger" alt=""/>
                             <div className="middle-three">
