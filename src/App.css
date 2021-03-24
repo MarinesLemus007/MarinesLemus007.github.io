@@ -97,7 +97,7 @@ a> .fa-phone, a> .fa-user, a> .fa-folder-open, a> .fa-home{
 .start-img{
   display: flex;
   flex-direction: row;
-  background-image: url(/static/media/developer2.3152f4b2.jpg);
+  background-image: url(./img/developer2.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
