@@ -88,14 +88,14 @@ class Proyect extends React.Component{
                             <div className="proyect-wordtwo">
                                 <p>
                                     Pokémon es una SPA creada con React. Posee dos vistas: home y detail.
-                                    Para su construcción se utilizó la PókeApi con datos de todos los pokemones.
+                                    Para su construcción se utilizó la PokéApi con datos de todos los pokemones.
                                 </p>
                             </div>
 
                             <div  className="proyect-wordthree">
                                 <strong>
                                     <p>
-                                        REACT, HOOKS, JAVASCRIPT, GH PAGES, MATERIAL UI, REACT ROUTER y AXIOS 
+                                        REACT, HOOKS, JAVASCRIPT, GH PAGES, MATERIAL UI, REACT ROUTER, REDUX y AXIOS 
                                     </p>
                                 </strong>
                             </div>
